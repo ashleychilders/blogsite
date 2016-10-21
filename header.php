@@ -15,22 +15,20 @@
 <body>
 <div class="header-wrapper">
   <header class="container">
-  <div class="row">
-      <div class="twelve columns">
-            <h1><a href="<?php $url = home_url('/');echo $url;?>"
-                <?php bloginfo('name'); ?>
-            </a></h1>
-            <h2><?php bloginfo('description'); ?></h2>
+    <div class="row">
+        <div class="four columns">
+              <h1><a href="<?php $url = home_url('/');echo $url;?>"
+                  <?php bloginfo('name'); ?>
+              </a></h1>
         </div>
-    </header>
-      <div class="row">
-        <div class="twelve columns">
-          <?php
-            wp_nav_menu(array(
-                'sort_column' => 'menu_order',
-                'container_class' => 'blank-menu-header'
-            ));?>
-        </div>
+          <div class="eight columns">
+            <?php
+              wp_nav_menu(array(
+                  'sort_column' => 'menu_order',
+                  'container_class' => 'blank-menu-header'
+              ));
+              ?>
+            </div>
+      </header>
     </div>
-  </div>
-</div>
+    <div class="container">

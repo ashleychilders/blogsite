@@ -1,4 +1,38 @@
 <?php
+
+/*-------------Enable Customer Header----------*/
+register_default_headers( array(
+	'art' => array(
+		'url'           => '%s/images/header.png',
+		'thumbnail_url' => '%s/images/header.png',
+		'description'   => __( 'Art', 'squares' )
+	),
+
+  $args = array(
+  	'width'         => 980,
+  	'height'        => 60,
+  	'default-image' => get_template_directory_uri() . '/images/header.png',
+  );
+  add_theme_support( 'custom-header', $args );
+
+$defaults = array(
+	'default-image'          => '',
+	'width'                  => 0,
+	'height'                 => 0,
+	'flex-height'            => false,
+	'flex-width'             => false,
+	'uploads'                => true,
+	'random-default'         => false,
+	'header-text'            => true,
+	'default-text-color'     => '',
+	'wp-head-callback'       => '',
+	'admin-head-callback'    => '',
+	'admin-preview-callback' => '',
+);
+
+add_theme_support( 'custom-header', $defaults );
+
+
 /*-------------- Enable Widgets--------------- */
 
 function blank_widgets_init() {
@@ -31,17 +65,6 @@ register_sidebar( array(
     'before_title'  => '<h3>',
     'after_title'   => '</h3>'
     ));
-/*-------------- Third Footer Widget -------------- */
-register_sidebar( array(
-    'name'          => ('Third Footer Widget'),
-    'id'            => 'footer-three',
-    'description'   => 'Right widget in the footer',
-    'before_widget' => '<div class="widget-footer widget-right">',
-    'after_widget'  => '</div>',
-    'before_title'  => '<h3>',
-    'after_title'   => '</h3>'
-    ));
-
     }
 add_action('widgets_init', 'blank_widgets_init');
 
@@ -50,5 +73,6 @@ add_theme_support('menus');
 
 /*--- Enable Post Thumbnails ---*/
 add_theme_support( 'post-thumbnails' );
+
 
 ?>

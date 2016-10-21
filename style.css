@@ -18,7 +18,7 @@ Text Domain: Ashley_Childers_blank_template
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #999999;
+  color: #000000;
   font-weight: 700;
 }
 
@@ -47,9 +47,36 @@ h6 {
 }
 
 a {
-  color: #ee2c2c;
+  color: ##7a6868;
   text-decoration: none;
 }
+
+p {
+  margin-bottom: 10px;
+}
+
+.six.columns {
+  width: 30%;
+  min-height: 500px;
+
+}
+
+/*--- Home Page---*/
+.index-post {
+  min-height: 500px;
+  margin-top: 30px;
+}
+  /*---- Header---*/
+
+.header-wrapper {
+  padding: 10px 1em;
+  background-color: #000000;
+}
+
+a.header-wrapper {
+  color: #ffffff;
+}
+
 /*--- Menu --- */
 
 .blank-menu-header {
@@ -74,4 +101,10 @@ a {
 }
 .blank-menu-header ul li a:hover {
     color: #cccccc;
+}
+/*---- Footer ---*/
+.footer-wrapper {
+  margin-top: 50px;
+  padding: 50px 1em;
+  background-color: #000000;
 }
