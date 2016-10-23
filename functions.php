@@ -1,38 +1,17 @@
 <?php
 
 /*-------------Enable Customer Header----------*/
-register_default_headers( array(
-	'art' => array(
-		'url'           => '%s/images/header.png',
-		'thumbnail_url' => '%s/images/header.png',
-		'description'   => __( 'Art', 'squares' )
-	),
-
+function themename_custom_header_setup() {
   $args = array(
-  	'width'         => 980,
-  	'height'        => 60,
-  	'default-image' => get_template_directory_uri() . '/images/header.png',
-  );
-  add_theme_support( 'custom-header', $args );
-
-$defaults = array(
-	'default-image'          => '',
-	'width'                  => 0,
-	'height'                 => 0,
-	'flex-height'            => false,
-	'flex-width'             => false,
-	'uploads'                => true,
-	'random-default'         => false,
-	'header-text'            => true,
-	'default-text-color'     => '',
-	'wp-head-callback'       => '',
-	'admin-head-callback'    => '',
-	'admin-preview-callback' => '',
+    'flex-width'    => true,
+    'width'         => 980,
+    'flex-height'   => true,
+    'height'        => 200,
+    'default-image' => get_template_directory_uri() . '/images/header.png',
 );
-
-add_theme_support( 'custom-header', $defaults );
-
-
+add_theme_support( 'custom-header', $args );
+}
+add_action( 'after_setup_theme', 'themename_custom_header_setup' );
 /*-------------- Enable Widgets--------------- */
 
 function blank_widgets_init() {
