@@ -14,21 +14,25 @@
 -->
 <body>
 <div class="header-wrapper">
+<!--
+  <div id="social">
+    <ul>
+      <li><a href="https://www.linkedin.com/in/rebeccaashleychilders" target="_blank"><img src="images/linkedin.png" width="24" height="24" alt="linkedin" title="linkedin"/></a></li>
+      <li><a href="https://www.facebook.com/ashley.childers2" target="_blank"><img src="images/facebook.png" width="24" height="24" alt="facebook" title="facebook"/></a></li>
+      <li><a href="https://www.instagram.com/ashleyccohen/" target="_blank"><img src="images/instagram.png" width="24" height="24" alt="instagram" title="instagram"/></a></li>
+    </ul>
+  </div> -->
   <header class="container">
     <?php if ( get_header_image() ) : ?>
-    <div id="site-header">
-        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+    <div class="site-header">
+      <h1><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
             <img src="<?php header_image(); ?>" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
-        </a>
+        </a></h1>
     </div>
 <?php endif; ?>
-    <div class="row">
-        <div class="four columns">
-              <h1><a href="<?php $url = home_url('/');echo $url;?>"
-                  <?php bloginfo('name'); ?>
-              </a></h1>
-        </div>
-          <div class="eight columns">
+      <div class="row">
+          <div class="tweleve columns">
+            <div class="blank-menu-header">
             <?php
               wp_nav_menu(array(
                   'sort_column' => 'menu_order',
@@ -36,6 +40,8 @@
               ));
               ?>
             </div>
+          </div>
+          </div>
       </header>
     </div>
   </div>
