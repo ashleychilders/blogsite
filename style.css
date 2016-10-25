@@ -63,7 +63,7 @@ h6 {
 }
 
 a {
-  color: ##7a6868;
+  color: #7a6868;
   text-decoration: none;
 }
 
@@ -96,7 +96,7 @@ p {
 
 .site-header h1 {
   font: 'robotom' 110%;
-  color: #ffffff;
+  color: #000000;
 }
 .header-wrapper {
   padding: 10px 1em;
@@ -112,7 +112,7 @@ a.header-wrapper {
 .blank-menu-header {
     text-align: center;
     margin-top: 10px;
-    color: #303030;
+    color: #ffffff;
 }
 .blank-menu-header ul {
     margin: 0;
@@ -125,8 +125,10 @@ a.header-wrapper {
     border-style: solid;
     border-width: 1px;
     border-color: #303030;
-    padding-left: 3px;
-    padding-right: 3px;
+    padding: 6px;
+    font-size: 1.8rem;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 .blank-menu-header ul li a {
     text-decoration:none;
