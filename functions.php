@@ -24,6 +24,16 @@ function blank_widgets_init() {
         'before_title'  => '<h2>',
         'after_title'   => '</h2>'
         ));
+/*-------------- Top Header Widget --------------- */
+    register_sidebar( array(
+        'name'          => ('Top Header Widget'),
+        'id'            => 'header-one',
+        'description'   => 'Top widget in the header',
+        'before_widget' => '<div class="widget-header">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h2>',
+        'after_title'   => '</h2>'
+                ));
 /*-------------- First Footer Widget --------------- */
 register_sidebar( array(
         'name'          => ('First Footer Widget'),

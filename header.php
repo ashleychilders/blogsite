@@ -14,6 +14,11 @@
 -->
 <body>
 <div class="header-wrapper">
+  <div class="row">
+      <div class="ten columns">
+        <?php dynamic_sidebar('header-one'); ?>
+      </div>
+    </div>
 <!--
   <div id="social">
     <ul>
