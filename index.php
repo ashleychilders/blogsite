@@ -6,6 +6,11 @@
     <div class="container">
       <section class ="row">
             <!-- Begin Loop -->
+            <div class="tweleve columns">
+              <div class="intro">
+                <?php echo('Hello! Welcome to my WIE Blog. This site is a place to showcase the work and topics I am learning about as I move closer to completing my Master of Arts in Mass Communication in Web Design and Online Communication from the University of Florida. I hope you find the topics covered engaging and interesting and I encourage you to connect with me on social media. Enjoy!'); ?>
+              </div>
+            </div>
             <?php
             if ( have_posts() ) {
               while ( have_posts() ){
