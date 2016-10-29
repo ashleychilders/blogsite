@@ -18,7 +18,7 @@
       <div class="nine columns">
         <?php dynamic_sidebar('header-one'); ?>
       </div>
-    </div>
+  </div>
   <header class="container">
     <?php if ( get_header_image() ) : ?>
     <div class="site-header">
