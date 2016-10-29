@@ -34,8 +34,7 @@ Text Domain: Ashley_Childers_blank_template
 
 h1, h2, h3, h4, h5, h6 {
   color: #000000;
-  font-weight: 700;
-  font-family: 'robotom'
+  font-family: 'robotor'
 }
 
 h1 {
@@ -48,6 +47,13 @@ h2 {
 
 h3 {
     font-size: 1.8rem;
+}
+
+h2 a {
+  text-decoration: none;
+  font-size: 2.0rem;
+  font-family: 'robotor';
+  color: #303030;
 }
 
 h4 {
@@ -63,6 +69,7 @@ h6 {
 }
 
 a {
+  font-family: 'robotor';
   color: #3366ff;
   text-decoration: none;
 }
@@ -81,13 +88,17 @@ p {
 
 /*--- Home Page---*/
 .index-post {
-  min-height: 400px;
+  min-height: 500px;
   margin-top: 30px;
+}
+
+.thumbnail {
+  min-height: 150px;
 }
 
 .intro {
   margin-top: 30px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   text-align: justify;
 }
   /*---- Header---*/
@@ -159,7 +170,7 @@ a.header-wrapper {
 }
 /*---- Footer ---*/
 .footer-wrapper {
-  margin-top: 50px;
+  margin-top: 30px;
   padding: 50px 1em;
   background-color: rgba(204, 204, 204, 0.5);
 }
