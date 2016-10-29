@@ -163,6 +163,6 @@ a.header-wrapper {
   padding: 50px 1em;
   background-color: rgba(204, 204, 204, 0.5);
 }
-.footer-nav {
+.footer-nav a {
   align-content: center;
 }

@@ -14,12 +14,12 @@
 -->
 <body>
 <div class="header-wrapper">
-  <div class="row">
-      <div class="nine columns">
-        <?php dynamic_sidebar('header-one'); ?>
-      </div>
-  </div>
   <header class="container">
+    <div class="row">
+        <div class="tweleve columns">
+          <?php dynamic_sidebar('header-one'); ?>
+        </div>
+    </div>
     <?php if ( get_header_image() ) : ?>
     <div class="site-header">
       <h1><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
