@@ -81,7 +81,7 @@ p {
 }
 
 .six.columns {
-  width: 25%;
+  width: 30%;
   min-height: 500px;
 
 }
@@ -92,14 +92,24 @@ p {
   margin-top: 30px;
 }
 
-.thumbnail {
+.post-thumbnail {
   min-height: 150px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  float: left;
 }
 
 .intro {
   margin-top: 30px;
   margin-bottom: 10px;
   text-align: justify;
+}
+
+
+/*---- Post Page -----*/
+.post-title {
+  padding-top: 40px;
 }
   /*---- Header---*/
 
@@ -167,6 +177,11 @@ a.header-wrapper {
 
     /*border-color: #ffffff;*/
 
+}
+
+/*---- About Page ---*/
+.about-page {
+  margin-top: 300px;
 }
 /*---- Footer ---*/
 .footer-wrapper {

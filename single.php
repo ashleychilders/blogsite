@@ -10,12 +10,15 @@
                       the_post();
                       if ( has_post_thumbnail() ) { ?>
                         <div class="post-thumbnail">
-                            <?php the_post_thumbnail('large'); ?></div>
+                            <?php the_post_thumbnail('medium'); ?></div>
                             <?php } ?>
+                                <div class="post-title">
                                   <h2><?php the_title(); ?></h2>
+                                </div>
                                   <?php the_content();
                             endwhile;
                         endif; ?>
+
              <!-- End Loop -->
       </div>
     </div>
