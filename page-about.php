@@ -1,9 +1,10 @@
 <?php get_header(); ?>
 
   <div class="row">
-      <div class="ten columns">
-
 <!-- BEGIN PAGE PHP -->
+    <div class="three columns">
+      <img alt="ashleychilders" scr="http://www.ashley-childers.com/WIE/wp-content/uploads/2016/10/AshleyChilders-1.jpg" width="200" height="280"/>
+    </div>
     <div class="nine columns">
       <div class="about-page">
         <p><?php echo('Hello! My name is Ashley Childers, thank you for checking out my Web Interactivity and Engagement blog site.'); ?></p>
