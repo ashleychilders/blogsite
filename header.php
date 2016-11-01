@@ -17,7 +17,9 @@
   <header class="container">
     <div class="row">
         <div class="tweleve columns">
-          <?php dynamic_sidebar('header-one'); ?>
+          <div class="logotop">
+            <?php dynamic_sidebar('header-one'); ?>
+          </div>
         </div>
     </div>
     <?php if ( get_header_image() ) : ?>

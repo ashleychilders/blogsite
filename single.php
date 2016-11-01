@@ -9,7 +9,7 @@
                     while( have_posts() ) :
                       the_post();
                       if ( has_post_thumbnail() ) { ?>
-                        <div class="post-thumbnail">
+                        <div class="post-thumbnailpage">
                             <?php the_post_thumbnail('medium'); ?></div>
                             <?php } ?>
                                 <div class="post-title">

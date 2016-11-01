@@ -5,7 +5,7 @@ function themename_custom_header_setup() {
   $args = array(
     'default-text-color'  => '000',
     'flex-width'    => true,
-    'width'         => 1000,
+    'width'         => 960,
     'flex-height'   => true,
     'height'        => 200,
 );

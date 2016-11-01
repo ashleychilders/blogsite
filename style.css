@@ -15,6 +15,7 @@ Text Domain: Ashley_Childers_blank_template
   color: #000000;
   font-size: 14px;
   line-height: 1.5em;
+  font-family: 'robotor';
 }
 
 @font-face {
@@ -83,13 +84,26 @@ p {
   color: #303030;
 }
 
-.six.columns {
+.four.columns {
   width: 30%;
   min-height: 500px;
 
 }
+
 img.alignleft {
   float: left; margin: 0 1em 1em 0;
+}
+
+.alignleft {
+  float: left;
+}
+
+.columns, .column {
+  margin-left: 0;
+}
+
+.columns:nth-child(2n), .column:nth-child(2n) {
+  margin-left: 4%;
 }
 
 /*--- Home Page---*/
@@ -100,7 +114,15 @@ img.alignleft {
 
 .post-thumbnail {
   min-height: 150px;
-  padding-top: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+  float: left;
+}
+
+.post-thumbnailpage {
+  min-height: 150px;
+  padding-top: 40px;
   padding-bottom: 20px;
   padding-right: 20px;
   float: left;
@@ -112,13 +134,15 @@ img.alignleft {
   text-align: justify;
 }
 
-
 /*---- Post Page -----*/
 .post-title {
   padding-top: 40px;
 }
   /*---- Header---*/
-
+.logotop {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
 .site-header h1 {
   font: 'robotom' 110%;
   color: #000000;
@@ -187,7 +211,11 @@ a.header-wrapper {
 
 /*---- About Page ---*/
 .about-page {
-  margin-top: 30px;
+  margin-top: 40px;
+}
+.ashleychilders {
+  margin-top: 40px;
+  margin-left: 20px;
 }
 /*---- Footer ---*/
 .footer-wrapper {

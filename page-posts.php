@@ -1,6 +1,6 @@
 <?php
 
-/* Template Name: Archive Page */
+/* Template Name: Posts Page */
 
 get_header(); ?>
 
@@ -24,8 +24,8 @@ get_header(); ?>
         <ul>
             <?php wp_get_archives('type=monthly'); ?>
         </ul>
+
     </div>
 </div>
 <?php get_footer(); ?>
-    <?php get_footer(); ?>
 <!-- End Footer -->
