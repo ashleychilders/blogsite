@@ -1,7 +1,6 @@
 <?php get_header(); ?>
 
   <div class="row">
-      <div class="twelve columns">
 
 <!-- BEGIN PAGE PHP -->
             <?php
@@ -9,16 +8,20 @@
                     while( have_posts() ) :
                       the_post();
                       if ( has_post_thumbnail() ) { ?>
+                      <div class="three columns">
                         <div class="post-thumbnailpage">
-                            <?php the_post_thumbnail('medium'); ?></div>
+                            <?php the_post_thumbnail('small'); ?></div>
                             <?php } ?>
+                          </div>
+                            <div class="nine columns">
                                 <div class="post-title">
                                   <h2><?php the_title(); ?></h2>
                                 </div>
                                   <?php the_content();
+
                             endwhile;
                         endif; ?>
-
+                          </div>
              <!-- End Loop -->
       </div>
     </div>

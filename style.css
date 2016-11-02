@@ -86,8 +86,6 @@ p {
 
 .four.columns {
   width: 30%;
-  min-height: 500px;
-
 }
 
 img.alignleft {
@@ -105,27 +103,44 @@ img.alignleft {
 .columns:nth-child(2n), .column:nth-child(2n) {
   margin-left: 4%;
 }
+/*---- Header---*/
+.logotop {
+margin-top: 5px;
+margin-bottom: 5px;
+}
+.site-header h1 {
+font: 'robotom' 110%;
+color: #000000;
+}
+.header-wrapper {
+/*background-color: rgba(204, 204, 204, 0.5);
+background-color: #000000;--*/
+}
+
+a.header-wrapper {
+color: #ffffff;
+}
 
 /*--- Home Page---*/
 .index-post {
-  min-height: 500px;
-  margin-top: 30px;
+  min-height: 400px;
+  margin-left: 20px;
+  margin-top: 20px;
+  max-width: 275px;
 }
 
 .post-thumbnail {
-  min-height: 150px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-right: 15px;
-  float: left;
+  min-height: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  align-content: center;
 }
 
 .post-thumbnailpage {
   min-height: 150px;
-  padding-top: 40px;
-  padding-bottom: 20px;
-  padding-right: 20px;
-  float: left;
+  margin-top: 40px;
+  margin-left: 20px;
+
 }
 
 .intro {
@@ -138,9 +153,10 @@ img.alignleft {
 .post-title {
   padding-top: 40px;
 }
+
   /*---- Header---*/
 .logotop {
-  margin-top: 15px;
+  margin-top: 10px;
   margin-bottom: 10px;
 }
 .site-header h1 {
@@ -213,6 +229,11 @@ a.header-wrapper {
 .about-page {
   margin-top: 40px;
 }
+
+.about-page p {
+  padding-bottom: 5px;
+}
+
 .ashleychilders {
   margin-top: 40px;
   margin-left: 20px;
@@ -223,6 +244,6 @@ a.header-wrapper {
   padding: 50px 1em;
   background-color: rgba(204, 204, 204, 0.5);
 }
-.footer-nav a {
+.footer-nav p {
   align-content: center;
 }

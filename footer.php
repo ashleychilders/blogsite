@@ -16,7 +16,7 @@
         <div class="row">
             <div class="footer-nav">
               <div class="twelve columns">
-                  <a href"">Copyright Ashley Childers Cohen 2016</a>
+                  <p>&copy; Ashley Childers Cohen 2016</p>
               </div>
             </div>
         </div>

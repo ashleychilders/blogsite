@@ -18,7 +18,7 @@ get_header(); ?>
 
           <p>This is a collection of posts that I have composed as part of a course requirement for my studies  as a  graduate student at the University of Florida in the Web Design and Online Communication program.
             When not busy with school projects, you can find me  at The World Bank
-            headquarters in the Printing and Multimedia Department where I manage projects related to print and digital media.'</p>
+            headquarters in the Printing and Multimedia Department where I manage projects related to print and digital media.</p>
 
           <p>Outside of work I enjoy volunteering and spending time with my husband, Daniel and fur baby, Celine.
             We currently reside in the Dupont Circle neighborhood of Washington, DC. I have been a member of the Junior League of Washington
