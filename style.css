@@ -40,7 +40,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2.0rem;
+  font-size: 2.2rem;
   font-family: 'robotor'
 }
 
@@ -120,9 +120,7 @@ color: #ffffff;
 /*--- Home Page---*/
 .index-post {
   min-height: 400px;
-  margin-left: 20px;
   margin-top: 20px;
-  max-width: 275px;
 }
 
 .post-thumbnail {
@@ -217,9 +215,6 @@ a.header-wrapper {
   color: #ffffff;
   text-decoration: none;
 }
-.about-photos a:hover {
-    border: solid #303030 1px;
-}
 
 /*---- About Page ---*/
 .about-page {
@@ -236,7 +231,11 @@ a.header-wrapper {
 }
 
 #resume {
-  padding-right: 20px;
+  margin-right: 25px;
+}
+
+#resume:hover {
+  box-shadow: 5px 5px 5px #888888;
 }
 
 .about-photos {
