@@ -104,13 +104,9 @@ img.alignleft {
 margin-top: 5px;
 margin-bottom: 5px;
 }
-.site-header h1 {
-font: 'robotom' 110%;
-color: #000000;
-}
+
 .header-wrapper {
-/*background-color: rgba(204, 204, 204, 0.5);
-background-color: #000000;--*/
+  background-color: rgba(204, 204, 204, 0.5);
 }
 
 a.header-wrapper {
@@ -153,13 +149,10 @@ color: #ffffff;
   margin-top: 5px;
   margin-bottom: 8px;
 }
-.site-header h1 {
-  font: 'robotom' 110%;
-  color: #000000;
-}
+
 .header-wrapper {
-  /*background-color: rgba(204, 204, 204, 0.5);
-background-color: #000000;--*/
+  background-color: rgba(204, 204, 204, 0.5);
+  margin-bottom: 20px;
 }
 
 a.header-wrapper {
