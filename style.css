@@ -84,10 +84,6 @@ p {
   color: #303030;
 }
 
-.four.columns {
-  width: 30%;
-}
-
 img.alignleft {
   float: left; margin: 0 1em 1em 0;
 }
@@ -130,14 +126,14 @@ color: #ffffff;
 }
 
 .post-thumbnail {
-  min-height: 200px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  align-content: center;
+  min-height: 215px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  display: block;
 }
 
 .post-thumbnailpage {
-  min-height: 150px;
+  min-height: 215px;
   margin-top: 40px;
   margin-left: 20px;
 
@@ -156,8 +152,8 @@ color: #ffffff;
 
   /*---- Header---*/
 .logotop {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 5px;
+  margin-bottom: 8px;
 }
 .site-header h1 {
   font: 'robotom' 110%;
@@ -220,9 +216,9 @@ a.header-wrapper {
   background: #303030;
   color: #ffffff;
   text-decoration: none;
-
-    /*border-color: #ffffff;*/
-
+}
+.about-photos a:hover {
+    border: solid #303030 1px;
 }
 
 /*---- About Page ---*/
@@ -238,11 +234,23 @@ a.header-wrapper {
   margin-top: 40px;
   margin-left: 20px;
 }
+
+#resume {
+  padding-right: 20px;
+}
+
+.about-photos {
+  align-content: center;
+  margin-left: 240px;
+}
 /*---- Footer ---*/
 .footer-wrapper {
   margin-top: 30px;
   padding: 50px 1em;
   background-color: rgba(204, 204, 204, 0.5);
+}
+.footer-two {
+  align-content: center;
 }
 .footer-nav p {
   align-content: center;
