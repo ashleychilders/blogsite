@@ -44,9 +44,9 @@ get_header(); ?>
     <div class="row">
       <div class="tweleve columns">
         <div class="about-photos">
-          <a href="http://ashley-childers.com/resume" target="_blank"><img alt="resumepic" class="shadow" id="resume" src="http://www.ashley-childers.com/WIE/wp-content/uploads/2016/11/resume-1.png" width="200" height="200"/></a>
-          <a href="http://ashley-childers.com/pizzaplanet" target="_blank"><img alt="resumepic" class="shadow" id="resume" src="http://www.ashley-childers.com/WIE/wp-content/uploads/2016/11/pizzaplanet.png" width="200" height="200"/></a>
-          <a href="http://ashley-childers.com/celine" target="_blank"><img alt="resumepic" class="shadow" id="resume" src="http://www.ashley-childers.com/WIE/wp-content/uploads/2016/11/celine.png" width="200" height="200"/></a>
+          <a href="http://ashley-childers.com/resume" target="_blank"><img alt="resumepic" class="shadow" id="resume" src="http://www.ashley-childers.com/WIE/wp-content/uploads/2016/11/resume-2.png" width="200" height="200"/></a>
+          <a href="http://ashley-childers.com/pizzaplanet" target="_blank"><img alt="resumepic" class="shadow" id="resume" src="http://www.ashley-childers.com/WIE/wp-content/uploads/2016/11/pizzaplanet-1.png" width="200" height="200"/></a>
+          <a href="http://ashley-childers.com/celine" target="_blank"><img alt="resumepic" class="shadow" id="resume" src="http://www.ashley-childers.com/WIE/wp-content/uploads/2016/11/celine-1.png" width="200" height="200"/></a>
       </div>
     </div>
   </div>
