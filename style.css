@@ -111,6 +111,12 @@ color: #ffffff;
   margin-left: 80px;
 }
 
+.indexbox h2 a {
+  margin-top: 20px;
+  margin-bottom: 0;
+  letter-spacing: 0rem;
+}
+
 @media (min-width: 700px) {
   .indexbox {
     width: 85%;

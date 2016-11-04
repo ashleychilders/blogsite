@@ -43,6 +43,17 @@ function blank_widgets_init() {
         'before_title'  => '<h2>',
         'after_title'   => '</h2>'
       ));
+  /*-------------- Post Page Widget --------------- */
+      register_sidebar( array(
+          'name'          => ('Post Page Widget'),
+          'id'            => 'post-one',
+          'description'   => 'Post page widget',
+          'before_widget' => '<div class="widget-post">',
+          'after_widget'  => '</div>',
+          'before_title'  => '<h3>',
+          'after_title'   => '</h3>'
+          ));
+
 /*-------------- First Footer Widget --------------- */
 register_sidebar( array(
         'name'          => ('First Footer Widget'),
