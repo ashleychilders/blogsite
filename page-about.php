@@ -29,7 +29,7 @@ get_header(); ?>
 
           <h3>Education</h3>
           <p>Clemson University
-          BS degree in Graphic Communications,
+          Bachelor of Science degree in Graphic Communications,
           Management Minor</p>
 
           <p>Georgetown University,

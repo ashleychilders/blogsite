@@ -21,6 +21,7 @@
 
                             endwhile;
                         endif; ?>
+                      <?php wp_pagenavi( array( 'type' => 'multipart' ) ); ?>
                           </div>
              <!-- End Loop -->
       </div>

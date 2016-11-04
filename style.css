@@ -84,7 +84,7 @@ p {
   margin-bottom: 5px;
   font-family: 'robotor';
   color: #303030;
-  font-size: 1.0rem;
+  font-size: 1.2rem;
 }
 
 img.alignleft {
@@ -126,6 +126,10 @@ color: #ffffff;
     padding: 0; }
 }
 .four.columns {
+  width: 29%;
+}
+
+.four.column {
   width: 29%;
 }
 
@@ -300,6 +304,15 @@ a.header-wrapper {
 
 #postpic:hover {
   box-shadow: 6px 6px 6px #595959;
+}
+
+/*-----Contact------*/
+.contact-form {
+  margin-top: 40px;
+  margin-left: 200px;
+  font-size: 14px;
+  line-height: 1.5em;
+  font-family: 'robotor';
 }
 /*---- Footer ---*/
 .footer-wrapper {
