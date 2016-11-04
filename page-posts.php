@@ -13,7 +13,7 @@ get_header(); ?>
       <a href="http://www.ashley-childers.com/WIE/uncategorized/why-xampp/" target="_blank"><img alt="resumepic" class="shadow" id="postpic" src="http://www.ashley-childers.com/WIE/wp-content/uploads/2016/11/xampp.png" width="200" height="200"/></a>
       <a href="http://www.ashley-childers.com/WIE/uncategorized/blog-site-elements/" target="_blank"><img alt="resumepic" class="shadow" id="postpic" src="http://www.ashley-childers.com/WIE/wp-content/uploads/2016/11/pencil-1.png" width="200" height="200"/></a>
       <a href="http://www.ashley-childers.com/WIE/uncategorized/website-element-environment/" target="_blank"><img alt="resumepic" class="shadow" id="postpic" src="http://www.ashley-childers.com/WIE/wp-content/uploads/2016/11/environment.png" width="200" height="200"/></a>
-      <a href="http://ashley-childers.com/resume" target="_blank"><img alt="resumepic" class="shadow" id="postpic" src="http://www.ashley-childers.com/WIE/wp-content/uploads/2016/11/resume-2.png" width="200" height="200"/></a>
+      <a href="http://www.ashley-childers.com/WIE/uncategorized/understanding-php/" target="_blank"><img alt="resumepic" class="shadow" id="postpic" src="http://www.ashley-childers.com/WIE/wp-content/uploads/2016/11/understandingphp.png" width="200" height="200"/></a>
       <a href="http://ashley-childers.com/pizzaplanet" target="_blank"><img alt="resumepic" class="shadow" id="postpic" src="http://www.ashley-childers.com/WIE/wp-content/uploads/2016/11/pizzaplanet-1.png" width="200" height="200"/></a>
       <a href="http://ashley-childers.com/celine" target="_blank"><img alt="resumepic" class="shadow" id="postpic" src="http://www.ashley-childers.com/WIE/wp-content/uploads/2016/11/celine-1.png" width="200" height="200"/></a>
   </div>

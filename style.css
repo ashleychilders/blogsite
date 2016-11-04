@@ -47,7 +47,8 @@ h2 {
 
 h3 {
     font-size: 1.8rem;
-    font-family: 'robotor'
+    font-family: 'robotor';
+    letter-spacing: 0rem;
 }
 
 h2 a {
@@ -83,6 +84,7 @@ p {
   margin-bottom: 5px;
   font-family: 'robotor';
   color: #303030;
+  font-size: 1.0rem;
 }
 
 img.alignleft {
@@ -297,7 +299,7 @@ a.header-wrapper {
 }
 
 #postpic:hover {
-  box-shadow: 5px 5px 5px #888888;
+  box-shadow: 6px 6px 6px #595959;
 }
 /*---- Footer ---*/
 .footer-wrapper {
