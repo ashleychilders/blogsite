@@ -92,13 +92,6 @@ img.alignleft {
   float: left;
 }
 
-.columns, .column {
-  margin-left: 0;
-}
-
-.columns:nth-child(2n), .column:nth-child(2n) {
-  margin-left: 4%;
-}
 /*---- Header---*/
 .logotop {
 margin-top: 5px;
@@ -114,14 +107,67 @@ color: #ffffff;
 }
 
 /*--- Home Page---*/
+.indexbox {
+  margin-left: 80px;
+}
+
+@media (min-width: 700px) {
+  .indexbox {
+    width: 85%;
+    padding: 0; }
+}
+.four.columns {
+  width: 29%;
+}
+
+.four.columns {
+  margin-left: 0;
+}
+
+.four.column {
+  margin-left:0;
+
+}
+.four.columns:nth-child(2){
+  margin-left: 3%;
+}
+
+.four.column:nth-child(2) {
+  margin-left: 3%;
+}
+.four.columns:nth-child(3){
+  margin-left: 3%;
+}
+
+.four.column:nth-child(3) {
+  margin-left: 3%;
+}
+
+.four.columns:nth-child(5){
+  margin-left: 3%;
+}
+
+.four.column:nth-child(5) {
+  margin-left: 3%;
+}
+
+.four.columns:nth-child(6){
+  margin-left: 3%;
+}
+
+.four.column:nth-child(6) {
+  margin-left: 3%;
+}
+
 .index-post {
   min-height: 400px;
   margin-top: 20px;
+  min-width: 225px;
 }
 
 .post-thumbnail {
   min-height: 215px;
-  padding-top: 8px;
+  margin-top: 8px;
   padding-bottom: 8px;
   display: block;
 }
@@ -145,14 +191,11 @@ color: #ffffff;
 }
 
   /*---- Header---*/
-.logotop {
-  margin-top: 5px;
-  margin-bottom: 8px;
-}
 
 .header-wrapper {
   background-color: rgba(204, 204, 204, 0.5);
   margin-bottom: 20px;
+  padding-top: 10px;
 }
 
 a.header-wrapper {
@@ -238,7 +281,7 @@ a.header-wrapper {
 /*----Posts------*/
 .post-container {
   margin-top: 40px;
-  margin-left: 30px;
+  margin-left: 20px;
 }
 
 #postpic {

@@ -13,6 +13,7 @@
         </div>
   </div>
   <div class="container">
+    <div class="indexbox">
       <section class ="row">
               <!-- Begin Loop -->
             <?php
@@ -20,7 +21,7 @@
               while ( have_posts() ){
                 the_post(); ?>
               <div class ="four columns index-post">
-                <div class="post-thumbnail">
+                <div class="post-thumbnail-index">
                 <?php
                   if ( has_post_thumbnail() ) {
                     the_post_thumbnail('thumbnail');
@@ -38,6 +39,7 @@
             <!-- End Loop -->
       </section>
     </div>
+  </div>
   <!-- Begin Fooder -->
       <?php get_footer(); ?>
 <!-- End Footer -->
