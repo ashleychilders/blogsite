@@ -1,7 +1,7 @@
 # Ashley Childers' Blog Site
 
 ## Link to Assignment on GitHub
-https://github.com/ashleychilders/project_file3_childers_ashley
+https://github.com/ashleychilders/blogsite
 
 ## Link to Assignment online
 http://ashley-childers.com/WIE
