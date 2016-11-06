@@ -29,12 +29,6 @@ Text Domain: Ashley_Childers_blank_template
 	src: url('font/robotoregular.ttf');
 }
 
-@font-face {
-	font-family: 'robotot';
-	src: url('font/robotothin.ttf');
-}
-
-
 h1 {
   font-size: 2.4rem;
   font-family: 'robotor';
@@ -86,20 +80,13 @@ p {
   font-family: 'robotor';
   color: #303030;
   font-size: 1.2rem;
+  letter-spacing: normal;
 }
-
-/*--img.alignleft {
-  float: left; margin: 0 1em 1em 0;
-}
-
-.alignleft {
-  float: left;
-}--*/
 
 /*---- Header---*/
 .logotop {
-padding-top: -top: 5px;
-padding-bottom: 5px;
+  padding-top: -top: 5px;
+  padding-bottom: 5px;
 }
 
 .header-wrapper {
@@ -107,12 +94,12 @@ padding-bottom: 5px;
 }
 
 a.header-wrapper {
-color: #ffffff;
+  color: #ffffff;
 }
 
 /*--- Home Page---*/
 .indexbox {
-  margin-left: 80px;
+  margin-left: 85px;
 }
 
 .indexbox h2 a {
@@ -121,11 +108,11 @@ color: #ffffff;
   letter-spacing: 0rem;
 }
 
-@media (min-width: 700px) {
+/*--@media (min-width: 700px) {
   .indexbox {
-    width: 85%;
+    width: 80%;
     padding: 0; }
-}
+}--*/
 .four.columns {
   width: 29%;
 }
@@ -176,7 +163,7 @@ color: #ffffff;
 .index-post {
   min-height: 400px;
   margin-top: 20px;
-  min-width: 220px;
+  min-width: 215px;
 }
 
 .post-thumbnail {
@@ -309,9 +296,9 @@ a.header-wrapper {
 /*-----Contact------*/
 .contact-form {
   margin-top: 40px;
-  padding: 20px 0px 20px 70px;
+  padding: 25px 0px 10px 60px;
   width: 400px;
-  margin-left: 225px;
+  margin-left: 240px;
   font-size: 14px;
   line-height: 1.5em;
   font-family: 'robotor';
@@ -327,6 +314,6 @@ a.header-wrapper {
 .footer-two {
   align-content: center;
 }
-.footer-nav p {
-  align-content: center;
+.footer-nav {
+  align-content: right;
 }
