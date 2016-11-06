@@ -12,10 +12,11 @@ Text Domain: Ashley_Childers_blank_template
 @import url("stylesheets/skeleton.css");
 
 *{
-  color: #000000;
+  color: #303030;
   font-size: 14px;
   line-height: 1.5em;
   font-family: 'robotor';
+  letter-spacing: 0rem;
 }
 
 @font-face {
@@ -87,18 +88,18 @@ p {
   font-size: 1.2rem;
 }
 
-img.alignleft {
+/*--img.alignleft {
   float: left; margin: 0 1em 1em 0;
 }
 
 .alignleft {
   float: left;
-}
+}--*/
 
 /*---- Header---*/
 .logotop {
-margin-top: 5px;
-margin-bottom: 5px;
+padding-top: -top: 5px;
+padding-bottom: 5px;
 }
 
 .header-wrapper {
@@ -175,7 +176,7 @@ color: #ffffff;
 .index-post {
   min-height: 400px;
   margin-top: 20px;
-  min-width: 225px;
+  min-width: 220px;
 }
 
 .post-thumbnail {
@@ -195,7 +196,6 @@ color: #ffffff;
 .intro {
   margin-top: 30px;
   margin-bottom: 10px;
-  text-align: justify;
 }
 
 /*---- Post Page -----*/
@@ -284,7 +284,7 @@ a.header-wrapper {
 }
 
 #resume:hover {
-  box-shadow: 5px 5px 5px #888888;
+  box-shadow: 6px 6px 6px #595959;
 }
 
 .about-photos {
@@ -309,16 +309,20 @@ a.header-wrapper {
 /*-----Contact------*/
 .contact-form {
   margin-top: 40px;
-  margin-left: 200px;
+  padding: 20px 0px 20px 70px;
+  width: 400px;
+  margin-left: 225px;
   font-size: 14px;
   line-height: 1.5em;
   font-family: 'robotor';
+  color: #ffffff;
+  background-color: rgba(0, 0, 102, 0.3);
 }
 /*---- Footer ---*/
 .footer-wrapper {
   margin-top: 30px;
   padding: 50px 1em;
-  background-color: rgba(204, 204, 204, 0.5);
+  background-color: rgba(204, 204, 204, 0.4);
 }
 .footer-two {
   align-content: center;
