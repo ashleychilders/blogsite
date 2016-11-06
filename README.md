@@ -8,5 +8,5 @@ http://ashley-childers.com/WIE
 
 **Comments**
 
-1.) The plug-in I used for my site is the contact form.
-2.) On my posts page the two bottom boxes that say sample site are placeholders for now until I can get more photos to add to my other posts.
+- The plug-in I used for my site is the contact form.
+- On my posts page the two bottom boxes that say sample site are placeholders for now until I can get more photos to add to my other posts.
