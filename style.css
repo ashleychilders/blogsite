@@ -170,14 +170,14 @@ p {
 
 .index-post {
   min-height: 400px;
-  margin-top: 20px;
-  min-width: 215px;
+  margin-top: 10px;
+  min-width: 210px;
 }
 
 .post-thumbnail {
   min-height: 215px;
   margin-top: 8px;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
   display: block;
 }
 
@@ -229,19 +229,6 @@ p {
     background: #ffffff;
     padding: 10px 20px 10px 20px;
     border: solid #303030 1px;
-
-    /*text-decoration:none;
-    margin: 4px;
-    padding: 5px 0px 5px 5px;
-    font-size: 1.8rem;
-    border-style: solid;
-    border-width: 1px;
-    color: #303030;
-    border-color: #303030;
-    padding: 8px;
-    font-size: 1.8rem;
-    margin-left: 50px;
-    margin-right: 50px;*/
 }
 .blank-menu-header ul li a:hover {
   background: #303030;
@@ -261,6 +248,7 @@ p {
 .ashleychilders {
   margin-top: 40px;
   margin-left: 20px;
+  margin-right: 10px;
 }
 
 #resume {
@@ -293,14 +281,19 @@ p {
 /*-----Contact------*/
 .contact-form {
   margin-top: 40px;
-  padding: 25px 0px 10px 60px;
+  margin-bottom: 10px;
+  padding: 25px 0px 10px 50px;
   width: 400px;
-  margin-left: 240px;
   font-size: 14px;
   line-height: 1.5em;
   font-family: 'robotor';
   color: #ffffff;
   background-color: rgba(0, 0, 102, 0.3);
+}
+
+@media (min-width: 650px) {
+  .contact-form {
+  margin-left: 240px; }
 }
 /*---- Footer ---*/
 .footer-wrapper {
