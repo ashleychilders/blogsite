@@ -19,6 +19,10 @@ Text Domain: Ashley_Childers_blank_template
   letter-spacing: 0rem;
 }
 
+/*--html {
+  font-size: 70%;
+}--*/
+
 @font-face {
 	font-family: 'robotom';
 	src: url('font/robotomedium.ttf');
@@ -111,7 +115,8 @@ p {
 @media (min-width: 750px) {
   .indexbox {
     width: 90%;
-    padding: 0; }
+    padding: 0;
+    font-size: 90% }
 }
 
 @media (min-width: 800px) {
@@ -198,7 +203,6 @@ p {
   padding-top: 40px;
 }
 
-
 /*--- Menu --- */
 
 .blank-menu-header {
@@ -221,8 +225,8 @@ p {
     -moz-border-radius: 0;
     border-radius: 0px;
     text-decoration: none;
-    margin-left: 30px;
-    margin-right: 30px;
+    /*--margin-left: 30px;
+    margin-right: 30px;--*/
     font-size: 1.8rem;
     font-family: 'robotor';
     color: #303030;
@@ -236,13 +240,18 @@ p {
   text-decoration: none;
 }
 
+@media (min-width: 750px) {
+  .blank-menu-header ul li a {
+      margin-left: 30px;
+      margin-right: 30px;
+}
 /*---- About Page ---*/
 .about-page {
   margin-top: 40px;
 }
 
 .about-page p {
-  padding-bottom: 5px;
+  padding-bottom: 3px;
 }
 
 .ashleychilders {
@@ -263,6 +272,12 @@ p {
   align-content: center;
   margin-left: 240px;
 }
+
+@media (min-width: 750px) {
+  .about-page {
+    font-size: 100%; }
+}
+
 /*----Posts------*/
 .post-container {
   margin-top: 40px;
