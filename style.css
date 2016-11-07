@@ -85,18 +85,14 @@ p {
 
 /*---- Header---*/
 .logotop {
-  padding-top: -top: 5px;
-  padding-bottom: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .header-wrapper {
   background-color: rgba(204, 204, 204, 0.5);
+  margin-bottom: 20px;
 }
-
-a.header-wrapper {
-  color: #ffffff;
-}
-
 /*--- Home Page---*/
 .indexbox {
   margin-left: 85px;
@@ -114,11 +110,11 @@ a.header-wrapper {
 }
 @media (min-width: 750px) {
   .indexbox {
-    width: 85%;
+    width: 90%;
     padding: 0; }
 }
 
-@media (min-width: 900px) {
+@media (min-width: 800px) {
   .indexbox {
     width: 100%;
     padding: 0;
@@ -202,17 +198,6 @@ a.header-wrapper {
   padding-top: 40px;
 }
 
-  /*---- Header---*/
-
-.header-wrapper {
-  background-color: rgba(204, 204, 204, 0.5);
-  margin-bottom: 20px;
-  padding-top: 10px;
-}
-
-a.header-wrapper {
-  color: #ffffff;
-}
 
 /*--- Menu --- */
 

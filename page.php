@@ -4,10 +4,7 @@
 
 <!-- BEGIN PAGE PHP -->
     <div class="nine columns">
-      <div class="about">
-      </div>
-    </div>
-          <?php if (have_posts()) :
+         <?php if (have_posts()) :
             /* OUR DATA CONTEXT IS DEFINED  */
               while (have_posts()) : the_post(); ?>
                     <?php the_content();
