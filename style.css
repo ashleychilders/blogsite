@@ -19,9 +19,15 @@ Text Domain: Ashley_Childers_blank_template
   letter-spacing: 0rem;
 }
 
-/*--html {
-  font-size: 70%;
-}--*/
+html {
+  font-size: 80%;
+}
+
+@media (min-width: 800px) {
+  html {
+    font-size: 75%;
+  }
+}
 
 @font-face {
 	font-family: 'robotom';
@@ -44,12 +50,6 @@ h2 {
   letter-spacing: 0rem;
 }
 
-h3 {
-    font-size: 1.8rem;
-    font-family: 'robotor';
-    letter-spacing: 0rem;
-}
-
 h2 a {
   text-decoration: none;
   font-size: 2.0rem;
@@ -57,10 +57,23 @@ h2 a {
   color: #303030;
 }
 
+h3 {
+    font-size: 1.8rem;
+    font-family: 'robotor';
+    letter-spacing: 0rem;
+}
+
+h3 a {
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-family: 'robotor';
+    color: #303030;
+}
+
+
 h4 {
     font-size: 1.5rem;
     font-family: 'robotor';
-
 }
 
 h5 {
@@ -98,9 +111,6 @@ p {
   margin-bottom: 20px;
 }
 /*--- Home Page---*/
-.indexbox {
-  margin-left: 85px;
-}
 
 .indexbox h2 a {
   margin-top: 20px;
@@ -110,20 +120,21 @@ p {
 @media (min-width: 600px) {
   .indexbox {
     width: 80%;
-    padding: 0; }
+    padding: 0;
+    margin-left: 60px;}
 }
 @media (min-width: 750px) {
   .indexbox {
     width: 90%;
     padding: 0;
-    font-size: 90% }
+    font-size: 90%
+    margin-left: 75px; }
 }
 
 @media (min-width: 800px) {
   .indexbox {
     width: 100%;
-    padding: 0;
-    margin-left: 60px; }
+    padding: 0; }
 }
 
 .four.columns {
@@ -273,10 +284,6 @@ p {
   margin-left: 240px;
 }
 
-@media (min-width: 750px) {
-  .about-page {
-    font-size: 100%; }
-}
 
 /*----Posts------*/
 .post-container {
@@ -304,6 +311,7 @@ p {
   font-family: 'robotor';
   color: #ffffff;
   background-color: rgba(0, 0, 102, 0.3);
+  font-size: 100%;
 }
 
 @media (min-width: 650px) {

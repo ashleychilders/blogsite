@@ -27,8 +27,8 @@
                       the_post_thumbnail('thumbnail');
                     }?>
                   </div>
-                  <h2><a href="<?php the_permalink(); ?>"><?php
-                    the_title(); ?></a></h2>
+                  <h3><a href="<?php the_permalink(); ?>"><?php
+                    the_title(); ?></a></h3>
                     <?php the_excerpt(); ?>
                   <p><a href="<?php the_permalink(); ?>">Read Post</a></p>
                 </div>
