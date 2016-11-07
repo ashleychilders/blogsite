@@ -256,7 +256,9 @@ p {
       margin-left: 30px;
       margin-right: 30px;
 }
+
 /*---- About Page ---*/
+
 .about-page {
   margin-top: 40px;
 }
@@ -271,6 +273,11 @@ p {
   margin-right: 10px;
 }
 
+.about-photos {
+  align-content: center;
+  margin-left: 240px;
+}
+
 #resume {
   margin-right: 25px;
 }
@@ -279,13 +286,8 @@ p {
   box-shadow: 6px 6px 6px #595959;
 }
 
-.about-photos {
-  align-content: center;
-  margin-left: 240px;
-}
-
-
 /*----Posts------*/
+
 .post-container {
   margin-top: 40px;
   margin-left: 20px;
@@ -301,6 +303,7 @@ p {
 }
 
 /*-----Contact------*/
+
 .contact-form {
   margin-top: 40px;
   margin-bottom: 10px;
@@ -318,15 +321,15 @@ p {
   .contact-form {
   margin-left: 240px; }
 }
+
 /*---- Footer ---*/
+
 .footer-wrapper {
   margin-top: 30px;
   padding: 50px 1em;
   background-color: rgba(204, 204, 204, 0.4);
 }
+
 .footer-two {
   align-content: center;
-}
-.footer-nav {
-  align-content: right;
 }
