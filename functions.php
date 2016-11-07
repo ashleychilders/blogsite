@@ -97,7 +97,4 @@ add_theme_support( 'post-thumbnails' );
 /*--------------Post Support----------------*/
 add_theme_support( 'post-formats', array('gallery'));
 
-/*--------custom background-----------*/
-add_theme_support( 'custom-background' );
-
 ?>
