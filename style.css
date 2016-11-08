@@ -301,6 +301,17 @@ p {
 #postpic:hover {
   box-shadow: 6px 6px 6px #595959;
 }
+/*-----Search-----*/
+
+.searchpage {
+  margin-top: 40px;
+}
+
+/*----- Archive----*/
+
+.archivepage {
+  margin-top: 40px;
+}
 
 /*-----Contact------*/
 
